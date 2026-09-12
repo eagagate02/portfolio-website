@@ -1,18 +1,20 @@
 # Personal Portfolio
 
-A responsive personal portfolio website by **Ernesto Gagate Jr**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as an aspiring full-stack web developer and showcases my current skills, projects, contact information, and professional links.
+A responsive personal portfolio website by **Ernesto Gagate Jr**, built as part of the MST Connect PH Full-Stack Web Development Bootcamp. The site introduces me as a full-stack developer working in Laravel and React, and showcases my skills, projects, contact information, and professional links.
 
 ## Live Demo
 
-> Add your GitHub Pages link here after deployment.
+Not published yet. The repository has to exist and be public before GitHub
+Pages will serve it. Once it is live the address will be:
 
-[View Portfolio](https://eagagate02.github.io/portfolio-website/) _(not live yet: create and publish the repository first)_
+[View Portfolio](https://eagagate02.github.io/portfolio-website/)
 
 ## Screenshot
 
-> Add a homepage screenshot to your `images/` folder, then update the path below.
+Save a homepage screenshot as `images/portfolio-homepage.png`, then delete the
+comment markers on the line below so the image displays.
 
-![Portfolio Homepage](images/portfolio-homepage.png)
+<!-- ![Portfolio Homepage](images/portfolio-homepage.png) -->
 
 ## Technologies Used
 
@@ -32,7 +34,7 @@ A responsive personal portfolio website by **Ernesto Gagate Jr**, built as part 
 - Skip link so keyboard users can jump straight to the main content
 - Client-side contact form validation with inline error messages
 - Hero section with name, developer title, profile photo, and call-to-action buttons
-- About section describing current learning goals
+- About section with a figure strip summarising GitHub activity
 - Skills section using responsive Bootstrap cards
 - Projects section with responsive project cards
 - Technology badges for project tools
@@ -48,26 +50,33 @@ A responsive personal portfolio website by **Ernesto Gagate Jr**, built as part 
 
 ### Home / Hero
 
-Introduces **Ernesto Gagate Jr** as an aspiring full-stack web developer and includes buttons for viewing projects and visiting GitHub.
+Introduces **Ernesto Gagate Jr** as a full-stack developer, names the kinds of systems I build, and includes buttons for viewing projects and visiting GitHub.
 
 ### About
 
-Provides a short introduction about current learning goals, front-end development skills, and plans to continue growing the portfolio.
+Introduces my day job as a full-stack developer at a recruitment company in
+Bulacan, the stack I work in, and the bootcamp study running alongside it.
+Closes with a short figure strip drawn from my GitHub account and
+organizations, marked up as a description list.
 
 ### Skills
 
-Highlights the technologies and tools currently being learned:
+Eight cards covering the working stack and the fundamentals underneath it:
 
-- HTML
-- CSS
-- Bootstrap
+- PHP & Laravel
+- JavaScript & React
+- MySQL
+- Flutter & Dart
+- Semantic HTML
+- CSS & Bootstrap
+- REST API design
 - Git & GitHub
 
 ### Projects
 
-A responsive project-card layout showing four projects. The first three are
-built on private repositories, so the cards describe the work instead of
-linking to code.
+A responsive project-card layout showing three projects. All three are built
+on private repositories, so the cards describe the work instead of linking to
+code.
 
 **RR Garage Management System**  
 An operations system for an auto repair shop. Job orders track the parts and
@@ -85,10 +94,6 @@ A point-of-sale and inventory system for a retail business. Covers products,
 categories and suppliers, records deliveries and stock levels, generates
 barcodes and receipt numbers, and keeps an audit trail of every user action.
 Built on CodeIgniter 3.
-
-**Personal Portfolio**  
-This site. Semantic HTML, Bootstrap and custom CSS, with a light and dark
-colour mode and a mobile-first layout.
 
 ### Contact
 
@@ -117,7 +122,7 @@ Bootstrap responsive classes are also used so layouts can stack on small screens
 ## Project Structure
 
 ```text
-personal-portfolio/
+portfolio-website/
 ├── index.html
 ├── css/
 │   └── style.css
@@ -166,8 +171,6 @@ Basic deployment steps:
 
 ## Before Final Submission
 
-Replace the following placeholders:
-
 - Create the public repository you intend to deploy from. `portfolio-website`
   does not exist yet, and the `portfolio` repository is currently private.
 - Update the Live Demo link at the top of this README once GitHub Pages is live
@@ -177,13 +180,13 @@ Replace the following placeholders:
 ## Author
 
 **Ernesto Gagate Jr**  
-Aspiring Full-Stack Web Developer
+Full-Stack Web Developer
 
 ### Professional Links
 
 - GitHub: https://github.com/eagagate02
-- LinkedIn: https://www.linkedin.com/in/YOUR-USERNAME
+- LinkedIn: https://www.linkedin.com/in/ernesto-gagate-jr-a5a979280
 
 ---
 
-Built while learning responsive web development, Bootstrap, Git, GitHub, and front-end deployment.
+Built for the MST Connect PH bootcamp, using the same fundamentals that sit underneath my day-to-day work.
